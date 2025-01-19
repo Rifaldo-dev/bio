@@ -4,7 +4,7 @@ html {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  background-color: #0d1b2a; /* Mengubah background menjadi biru gelap */
+  background-color: #0d1b2a; /* Background biru gelap */
 }
 
 #vanta {
@@ -23,30 +23,22 @@ main {
   transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
-header {
-  margin-top: 2rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-header > img {
+header img {
   width: 8rem;
   height: 8rem;
   border-radius: 100%;
-  border: 2px solid #4a90e2; /* Warna biru */
+  border: 2px solid #4a90e2; /* Border biru */
   box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
 }
 
-header > h1 {
+header h1 {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: bold;
   border-radius: 1rem;
-  background-color: #4a90e2aa; /* Warna biru transparan */
+  background-color: #4a90e2;
   padding: 0.4rem 0.6rem;
-  border: 1px solid #fffa;
+  border: 1px solid #fff;
 }
 
 ul {
@@ -57,16 +49,16 @@ ul {
   max-width: 480px;
 }
 
-ul > li {
-  background-color: #fffa;
+ul li {
+  background-color: #4a90e2; /* Background biru untuk link */
   border-radius: 10rem;
   padding: 1rem;
   margin: 2rem 0;
   box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease;
 }
 
-ul > li > a {
+ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,15 +66,15 @@ ul > li > a {
   gap: 0.5rem;
 }
 
-ul > li:hover {
-  background-color: #4a90e2; /* Warna biru saat hover */
+ul li:hover {
+  background-color: #356aa0; /* Biru lebih gelap saat hover */
   box-shadow: rgba(195, 195, 195, 0.24) 0 2px 16px 0;
   color: #fff;
   transform: translateY(-7px);
 }
 
 a {
-  color: #0d1b2a; /* Warna biru gelap */
+  color: #fff; /* Warna teks putih */
   text-decoration: none;
   font-weight: 600;
 }

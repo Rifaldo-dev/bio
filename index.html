@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M .Rifaldo Saputra- Links</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -12,52 +13,46 @@
   </head>
   <body>
     <div id="vanta"></div>
-    <main>
-      <header>
-        <img src="./images//me.jpg" alt="foto profil" />
-        <h1>@rifaldo.dev</h1>
+    <main class="d-flex justify-content-center align-items-center flex-column vh-100">
+      <header class="text-center">
+        <img src="./images/me.jpg" alt="foto profil" class="rounded-circle border border-2" style="width: 8rem; height: 8rem;" />
+        <h1 class="mt-3 text-white" style="background-color: #4a90e2; padding: 0.4rem 0.6rem; border-radius: 1rem;">@rifaldo.dev</h1>
       </header>
-      <ul>
-        <li>
-          <a href="https://me.rifaldo.tech">
-            
-            <img src="./images/homepage.svg" alt="HomePage" width="20" />
-            portofolio
+      <ul class="list-unstyled p-4" style="max-width: 480px;">
+        <li class="mb-4">
+          <a href="https://me.rifaldo.tech" class="d-flex align-items-center gap-2 text-decoration-none p-3 rounded-pill bg-primary text-white shadow-lg">
+            <img src="./images/homepage.svg" alt="HomePage" width="20" /> portofolio
           </a>
         </li>
-        <li>
-          <a href="https://iunstagram.com/rifaldo.dev">
-            <img src="./images/instagram.svg" alt="instagram" width="20" />
-            Instagram
+        <li class="mb-4">
+          <a href="https://iunstagram.com/rifaldo.dev" class="d-flex align-items-center gap-2 text-decoration-none p-3 rounded-pill bg-primary text-white shadow-lg">
+            <img src="./images/instagram.svg" alt="Instagram" width="20" /> Instagram
           </a>
         </li>
-        <li>
-          <a href="https://bocaah-it.blogspot.com/">
-            <img src="./images/blogger.svg" alt="Blogger" width="20" />
-            Blogger
+        <li class="mb-4">
+          <a href="https://bocaah-it.blogspot.com/" class="d-flex align-items-center gap-2 text-decoration-none p-3 rounded-pill bg-primary text-white shadow-lg">
+            <img src="./images/blogger.svg" alt="Blogger" width="20" /> Blogger
           </a>
         </li>
-        <li>
-          <a href="https://t.me/aku_aldo">
-            <img src="./images/telegram.svg" alt="Telegram" width="20" />
-            Telegram
+        <li class="mb-4">
+          <a href="https://t.me/aku_aldo" class="d-flex align-items-center gap-2 text-decoration-none p-3 rounded-pill bg-primary text-white shadow-lg">
+            <img src="./images/telegram.svg" alt="Telegram" width="20" /> Telegram
           </a>
         </li>
-        <li>
-          <a href="https://tiktok/@bocaah_it">
-            <img src="./images/tiktok.svg" alt="tiktok" width="20" />
-            Tiktok
+        <li class="mb-4">
+          <a href="https://tiktok/@bocaah_it" class="d-flex align-items-center gap-2 text-decoration-none p-3 rounded-pill bg-primary text-white shadow-lg">
+            <img src="./images/tiktok.svg" alt="Tiktok" width="20" /> Tiktok
           </a>
         </li>
-        <!--        <li>
-          <a href="https://discord.com/users/BrunoInacio07#6652">
-            <img src="./images/discord.svg" alt="Discord" width="20" />
-            3
-          </a>
-        </li>
-        -->
-
       </ul>
     </main>
+
+    <script>
+      VANTA.NET({
+        el: "#vanta",
+        color: 0x4a90e2,
+        backgroundColor: 0x0d1b2a
+      });
+    </script>
   </body>
 </html>
