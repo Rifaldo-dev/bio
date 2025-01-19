@@ -4,7 +4,7 @@ html {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  background-color: #23153c;
+  background-color: #0d1b2a; /* Mengubah background menjadi biru gelap */
 }
 
 #vanta {
@@ -35,7 +35,7 @@ header > img {
   width: 8rem;
   height: 8rem;
   border-radius: 100%;
-  border: 2px solid #7272b9;
+  border: 2px solid #4a90e2; /* Warna biru */
   box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
 }
 
@@ -44,7 +44,7 @@ header > h1 {
   font-size: 0.9rem;
   font-weight: bold;
   border-radius: 1rem;
-  background-color: #7272b9aa;
+  background-color: #4a90e2aa; /* Warna biru transparan */
   padding: 0.4rem 0.6rem;
   border: 1px solid #fffa;
 }
@@ -75,14 +75,14 @@ ul > li > a {
 }
 
 ul > li:hover {
-  background-color: #7272b9;
+  background-color: #4a90e2; /* Warna biru saat hover */
   box-shadow: rgba(195, 195, 195, 0.24) 0 2px 16px 0;
   color: #fff;
   transform: translateY(-7px);
 }
 
 a {
-  color: #23153c;
+  color: #0d1b2a; /* Warna biru gelap */
   text-decoration: none;
   font-weight: 600;
 }
