@@ -45,7 +45,7 @@ function renderLinks() {
     const filtered = allItems.filter(item => {
         const q = searchQuery.toLowerCase();
         return item.name.toLowerCase().includes(q) || 
-               (item.desc && item.desc.toLowerCase().includes(q));
+               (item.decs && item.decs.toLowerCase().includes(q));
     });
 
     const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
@@ -63,7 +63,7 @@ function renderLinks() {
 
     if (paged.length > 0) {
         paged.forEach((item, index) => {
-            const desc = item.desc ? item.desc.replace(/\r\n/g, ' ').replace(/\n/g, ' ') : '';
+            const desc = item.decs ? item.decs.replace(/\r\n/g, ' ').replace(/\n/g, ' ') : '';
             html += `
                 <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
                    class="link-btn fade-up" style="animation-delay: ${(index + 1) * 0.08}s">
