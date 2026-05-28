@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Rifaldo Saputra - Link Bio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/import.css">
+</head>
+<body>
+    <!-- Sticky Navbar (hidden by default, appears on scroll) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-avatar"><img src="./public/pp.png" alt="Profile"></div>
+        <span class="nav-name">M. Rifaldo Saputra</span>
+        <div class="nav-socials">
+            <a href="https://instagram.com/rifaldo.dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/rifaldo-dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://tiktok.com/@rifaldo.dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+            <a href="https://aldo.is-a.dev" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Profile Banner Section -->
+        <div id="profile-section"></div>
+
+        <!-- Content Row: Sidebar kiri (YouTube + Medium) | Links (kanan) -->
+        <div class="content-row">
+            <div class="sidebar-left">
+                <div class="media-card" id="youtube-card">
+                    <h3><i class="fab fa-youtube"></i> YouTube</h3>
+                    <div id="youtube-container">
+                        <p style="font-size:12px; opacity:0.6;">Memuat video...</p>
+                    </div>
+                </div>
+                <div class="media-card" id="medium-card">
+                    <h3><i class="fab fa-medium"></i> Medium</h3>
+                    <div class="medium-list" id="medium-container">
+                        <p style="font-size:12px; opacity:0.6;">Memuat artikel...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="links-column" id="links-section">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Memuat data...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026</p>
+        </div>
+    </div>
+
+    <script src="./src/js/navbar.js"></script>
+    <script src="./src/js/youtube.js"></script>
+    <script src="./src/js/medium.js"></script>
+    <script src="./src/js/links.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+</html>
